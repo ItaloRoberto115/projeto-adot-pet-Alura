@@ -120,14 +120,22 @@ button a{
     background-color: #36D6AD;
     height: 104px;
     position: absolute;
-    bottom: 0;
+    bottom: 0vh;
     width: 100%;
+}
+.footer-login{
+    background-color: #36D6AD;
+    height: 104px;
+    position: absolute;
+    bottom: 0vh;
+    margin-top: 105px;
+    width: 100%;   
 }
 .footer-cadastro{
     background-color: #36D6AD;
     height: 104px;
     
-    bottom: 0;
+    bottom: 0vh;
     width: 100%;
     
      
@@ -228,16 +236,22 @@ form section input{
     line-height: 24px;
     color: #FFFFFF;
     border: none;
-    margin-bottom: 105px;
-    margin-top: 40px;
+  
 }
+
 
 #cadastrar-botao:hover{
     background-color: #FF9D9E;
     transition: all 0.3s;
 }
+.cadastrar-botao{
+    margin-top: 24px;
+    margin-bottom: 105px;
+   
+}
 .login-button{
     margin-top: 32px;
+    
 }
 /*LOGIN PAGINA CSSS*/
 .text-login{
@@ -277,6 +291,11 @@ form section input{
     background-position: top left;
     
 }
+.mensagem-perfil{
+    width: 264px;
+    height: 176px;
+}
+
 
 .perfil{
 
@@ -337,8 +356,7 @@ form section input{
     
 }
 #mensagem-mensagem{
-    width: 268px;
-    height: 172px;
+    
     background-color: #FFFFFF;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
@@ -351,6 +369,10 @@ form section input{
     padding:16px  0 0 16px ;
     resize: none;
     
+}
+.mensagem-mensagem{
+    width: 264px;
+    height: 176px;
 }
 .login-cadastro{
     margin:24px 24px; 
@@ -400,9 +422,9 @@ form section input{
     border-radius: 5px;
     background-color: #F7F7F7;
     width: 312px;
-    margin:24px auto 16px;
-    height: 760px;
-    padding: 32px 16px;
+    margin: 24px auto 16px;
+    height: 825px;
+    padding: 32px 16px 0
     
 }
 .info{
@@ -474,7 +496,7 @@ li p{
 }
 li{
     margin-top: 16px;
-    width: 360px;
+    width: 344px;
     display: inline-grid;
     grid-template-columns: 50% 50%;
     background: #F7F7F7;
@@ -510,24 +532,17 @@ li{
     .sobre-perfil{
         margin: 26px auto 32px;
         width: 524px;
-        
-        
+        padding: 32px 32px 0;
+        height: 824px;
     } 
 
-    .mensagem-section{
-        width: 524px;
-        
-    }
+
     #imagem-perfil{
         margin: 0 auto;
     }
-    .mensagem-section input{
-        width: 508px;
-        margin: 0;
-        
-    }
-    #mensagem-mensagem{
-        width: 508px;
+   
+    .mensagem-perfil{
+        width: 476px;
         height: 104px;
     }
     .mensagem-page{
@@ -573,6 +588,8 @@ li{
    
     /* PERfil*/
     .text-perfil,.text-mensagem{
+        width: 524px;
+        margin:0 auto;
         padding: 270px 122px 0;
         font-size: 18px;
         line-height: 26px;
@@ -585,7 +602,7 @@ li{
         
     }
     .menu{
-        background-image: url("/imagens/forma-1-tablet.png"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração\ 1.png");
+        background-image: url("/imagens/forma-1-tablet.png"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração-tablet.png");
     }
     .descricao-tablet{
         font-family: 'Poppins';
@@ -643,25 +660,31 @@ li{
         height: 40px;
         
     }
+    .cadastrar-botao{
+        margin-top: 40px;
+        margin-bottom: 185px;
+       
+    }
     .login-cadastro input{
         width: 344px;
         font-family: 'Poppins';
         font-size: 14px;
     }
-    .footer-cadastro{
-        position: absolute;
-    }
+   
     
 
     /*home tablet*/ 
 
     .text-home{
+        width: 373px;
+        margin:0 auto;
         padding: 288px 198px 0;
         font-size: 18px;
     }
     .pets{
         margin: 0 auto;
         text-align: left;
+        width: 752px;
         
     }
     .pets li{
@@ -672,13 +695,19 @@ li{
         margin-bottom: 40px;
     }
 
-    /*mensagem paga*/ 
+    /*mensagem page tablet*/ 
+    .mensagem-section{
+        width: 492px;
+    }
+    .mensagem-section input{
+        width: 476px;
+    }
     .mensagem-form{
-        width: 524px;
-        margin: 0 auto 92px;
+        width: 492px;
+        margin: 40px auto 92px;
         height: 620px;
     }
-    #mensagem-mensagem{
+    .mensagem-perfil{
         height: 172px ;
     }
     .enviar-mensagem{
@@ -687,6 +716,110 @@ li{
     .login-cadastro{
         display: contents;
     }
+    .mensagem-mensagem{
+        width: 476px;
+        height: 172px;
+    }
 }
 
-/*ajeita cadastro /index / login
+/*CSS para Desktop*/
+
+/*css Index*/ 
+@media screen and (min-width:1440px){
+
+.logo-tablet{
+    margin-left: 161px;
+}
+.home{
+    margin:64px 0 0 337px;
+}
+.mensagem{
+    margin: 67px 0 0 389px;
+}
+
+.menu{
+    background-image: url("/imagens/forma-desktop.svg"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração-desktop.png");
+}
+.logo{
+    margin-top: 130px;
+}
+.footer-cadastro{
+    position: absolute;
+}
+/*login cadastro*/ 
+.cadastro-page{
+    background-image:url("/imagens/patas-desktop.png"), url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png"); 
+}
+.segundo-logo{
+    margin-top: 130px;
+}
+
+.login-cadastro input{
+    width: 552px;
+    font-size: 16px;
+}
+.login-cadastro .senhas{
+    width: 362px;
+}
+.text-login{
+    width: 488px;
+    margin:0 auto;
+    padding: 64px 476px 52px;
+}
+.text-cadastro{
+    width: 552px;
+    margin:0 auto;
+    padding: 40px 444px 28px;
+}
+#cadastrar-botao{
+    width:174px;
+}
+
+/*perfil */ 
+.perfil{
+    top: 53px;
+    right: 172px;
+}
+.text-perfil{
+   width: 552px;
+   padding: 196px 444px 0;
+   margin:0 auto;
+}
+.sobre-perfil{
+    width: 552px;
+    height: 756px;
+}
+.mensagem-perfil{
+    height: 104px;
+}
+/*mensagem*/ 
+.text-mensagem{
+    width: 492px;
+    margin:0 auto;
+   padding: 196px 444px 0;
+   
+}
+.mensagem-mensagem{
+    height: 172px;
+}
+
+/*index desk*/
+.text-home{
+    width: 414px;
+    padding: 204px 514px 0;
+    margin: 0 auto;
+}
+.pula-linha{
+    display: none;
+}
+.pets{
+    width: 1200px;
+}
+.pets li{
+    width: 363px;
+    height: 196px;
+}
+
+}
+
+/*REVISAR SOMENTE*/
