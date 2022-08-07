@@ -39,7 +39,7 @@ button a{
     
     background-color: #3772FF ;
     text-align: center;
-    background-image: url("/imagens/Forma\ 1.png"),url("/imagens/Forma\ 2.png"), url("/imagens/Ilustração\ 1.png");
+    background-image: url("../imagens/Forma\ 1.png"),url("../imagens/Forma\ 2.png"), url("../imagens/Ilustração\ 1.png");
     background-position:top left, right ,50% 90% ;
     height: 100vh;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ button a{
 
 .cadastro-page{
     text-align: center;
-    background-image:url("/imagens/Patas.svg"), url("/imagens/Forma\ 2\ invertida.png"),url("/imagens/Forma\ 1.png");
+    background-image:url("../imagens/Patas.svg"), url("../imagens/Forma\ 2\ invertida.png"),url("../imagens/Forma\ 1.png");
     background-repeat: no-repeat;
     background-position:top right, left 70% ,top left ;
 
@@ -286,7 +286,7 @@ form section input{
 /*mensagem html*/ 
 .mensagem-page{
     text-align: center;
-    background-image:url("/imagens/Forma\ 1.png");
+    background-image:url("../imagens/Forma\ 1.png");
     background-repeat: no-repeat;
     background-position: top left;
     
@@ -415,7 +415,7 @@ form section input{
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    background-image: url("/imagens/Imagenm\ Lua.png");
+    background-image: url("../imagens../Imagenm\ Lua.png");
 }
 .sobre-perfil{
     border: black;
@@ -547,7 +547,7 @@ li{
     }
     .mensagem-page{
         
-        background-image: url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png");
+        background-image: url("../imagens/Forma-tablet.png"),url("../imagens/forma-1-tablet.png");
         background-repeat: no-repeat;
         background-position: right 63% ,top left;
         
@@ -602,7 +602,7 @@ li{
         
     }
     .menu{
-        background-image: url("/imagens/forma-1-tablet.png"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração-tablet.png");
+        background-image: url("../imagens/forma-1-tablet.png"),url("../imagens/Forma-tablet.png"), url("../imagens/Ilustração-tablet.png");
     }
     .descricao-tablet{
         font-family: 'Poppins';
@@ -644,7 +644,7 @@ li{
     }
     .cadastro-page{
         text-align: center;
-        background-image:url("/imagens/Patas-tablet.png"), url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png");
+        background-image:url("../imagens/Patas-tablet.png"), url("../imagens/Forma-tablet.png"),url("../imagens/forma-1-tablet.png");
         background-repeat: no-repeat;
         background-position:right top, right 63% ,top left;
         
@@ -738,7 +738,7 @@ li{
 }
 
 .menu{
-    background-image: url("/imagens/forma-desktop.svg"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração-desktop.png");
+    background-image: url("../imagens/forma-desktop.svg"),url("../imagens/Forma-tablet.png"), url("../imagens/Ilustração-desktop.png");
 }
 .logo{
     margin-top: 130px;
@@ -748,7 +748,7 @@ li{
 }
 /*login cadastro*/ 
 .cadastro-page{
-    background-image:url("/imagens/patas-desktop.png"), url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png"); 
+    background-image:url("../imagens/patas-desktop.png"), url("../imagens/Forma-tablet.png"),url("../imagens/forma-1-tablet.png"); 
 }
 .segundo-logo{
     margin-top: 130px;
