@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;500&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <title>adopet</title>
+</head>
+<body class="cadastro-page">
+    <div class="home-img">
+        
+        <img src="/imagens/logo-tablet.png" class="logo-tablet">
+    </div>
+    <header>
+        <nav class="botoes">
+            <a href="../pages/home.html"><button class="home"><img src="/imagens/Casa.svg"></button></a>
+            <a href="../pages/mensagem.html"><button class="mensagem"><img src="/imagens/Mensagens.svg"></button></a>
+        </nav>
+    </header>
+        
+    <main>
+       
+        <div>
+             <h1><img src="/imagens/Logo (1).png" class="logo-login"></h1>
+             <img src="/imagens/logologin-tabley.png" class="segundo-logo">
+        </div>
+        <div class="text-cadastro">
+            <p>Ainda nao tem cadastro?</p>
+            <p>Então,antes de buscar seu melhor amigo,precisamos de alguns dados:</p>
+        </div>
+       
+
+        <form>
+            <section class="login-cadastro">
+
+                 <label for="nome">Nome</label>
+                <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                
+                <label for="email" class="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu melhor email" required>
+
+               
+            
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Crie uma senha" required>
+
+                <div class="mostrar">
+                    <i class="ri-eye-fill" ></i>
+                </div>
+                
+                
+                <label for="senha-confirm" class="senha-confirm">Confirmar senha</label>
+                <input type="password" id="senha-confirm" placeholder="Repita a senha criada" required>
+
+                <div class="mostrar">
+                    <i class="ri-eye-fill" ></i>
+                </div>
+
+            </section> 
+                <input type="submit" id="cadastrar-botao"  class="cadastrar-botao" value="Cadastrar">  
+        </form>
+    </main>
+
+    <footer class="footer-cadastro">
+        <p class="footer-text">2022 - Desenvolvido por Alura.</p>
+    </footer>
+
+</body>
+</html>

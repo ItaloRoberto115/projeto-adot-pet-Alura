@@ -1,0 +1,692 @@
+/* index css*/ 
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background-color:  #FFFFFF;;
+    width: 100%;
+}
+
+
+.botoes{
+    text-align: left;
+    
+    
+}
+.botoes a{
+    display: contents;
+}
+
+.home{
+    margin: 48px 0 0 48px ;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    
+}
+.mensagem{
+    margin: 50px 0 0 125px ;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+button a{
+    display: contents;
+}
+
+.menu{
+    
+    background-color: #3772FF ;
+    text-align: center;
+    background-image: url("/imagens/Forma\ 1.png"),url("/imagens/Forma\ 2.png"), url("/imagens/Ilustração\ 1.png");
+    background-position:top left, right ,50% 90% ;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 100%;
+}
+.logo{
+    
+    width: 186.67px;
+    height: 46px;
+    margin: 168px 0 24px 0;
+}
+
+/*texto inicial de boas vindas */
+
+.descricao-inicial{
+    padding: 0 56px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    
+}
+.boas{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+    /* identical to box height, or 185% */
+    color: #FFFFFF;
+    margin: 0 0 16px 0; 
+}
+
+/*botoes de conta */ 
+.botoes-iniciais{
+    width: 300px;
+    margin: 0 auto;
+}
+.login, .cadastro{
+    width: 180px;
+    height: 40px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    background-color: #FC7071;
+    border: 1px solid #FC7071;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    border: none;
+}
+
+.login:hover, .cadastro:hover{
+    background-color: #FF9D9E;
+    transition: all .3s;
+}
+
+.login{
+    margin: 24px 0 16px 0;
+    
+}
+.descricao-tablet{
+    display: none;
+}
+/*footer*/ 
+.footer-index{
+    background-color: #36D6AD;
+    height: 104px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-cadastro{
+    background-color: #36D6AD;
+    height: 104px;
+    
+    bottom: 0;
+    width: 100%;
+    
+     
+}
+.footer-text{
+    padding: 41px 0;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.detalhes{
+    position: absolute;
+}
+.forma1 ,.forma2 ,.forma3{
+ 
+    position: relative;
+}
+
+
+/*CSS CADASTRO */
+
+.cadastro-page{
+    text-align: center;
+    background-image:url("/imagens/Patas.svg"), url("/imagens/Forma\ 2\ invertida.png"),url("/imagens/Forma\ 1.png");
+    background-repeat: no-repeat;
+    background-position:top right, left 70% ,top left ;
+
+}
+.logo-login{
+    margin:156px 0 57px;
+    width: 142.54px;
+    height: 34.36px;
+}
+.text-cadastro{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding:24px 24px 0;
+    color: #3772FF;
+
+}
+.email{
+    margin-top: 24px;
+}
+label{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+input,label{
+    display: block;
+    text-align: center;
+   
+}
+input{
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+
+}
+form section input{
+    
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+.mostrar{
+    position:relative;
+    display: inline;
+}
+.ri-eye-fill{
+    position:absolute;
+    bottom: 15px;
+    cursor: pointer;
+    left: 130px;
+    display: inline-block;
+    
+}
+#cadastrar-botao{
+    cursor: pointer;
+    background-color:  #FC7071;
+    border-radius: 6px;
+    width: 148px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 105px;
+    margin-top: 40px;
+}
+
+#cadastrar-botao:hover{
+    background-color: #FF9D9E;
+    transition: all 0.3s;
+}
+.login-button{
+    margin-top: 32px;
+}
+/*LOGIN PAGINA CSSS*/
+.text-login{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:  #3772FF;
+    margin: 0 24px 10px;
+}
+
+.esqueci-senha{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #FC7071;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login-cadastro input{
+    width: 306px;
+    height: 40px;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+/*mensagem html*/ 
+.mensagem-page{
+    text-align: center;
+    background-image:url("/imagens/Forma\ 1.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+
+.perfil{
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 282px;
+    top:40px
+}
+.perfil-img{
+    width: 40px;
+}
+
+.mensagem-form{
+    border: black;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    height: 620px;
+    padding: 32px 16px 0;
+    width: 312px;
+    margin:24px auto 16px;
+    
+}
+
+.text-mensagem{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    padding: 168px 67px 0 ;
+}
+.mensagem-section{
+    width: 280px;
+    margin: 0 auto;
+}
+
+.mensagem-section label{
+    text-align: left;
+    
+    color: #3772FF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0 8px 0 ;
+}
+
+.mensagem-section input{
+    font-family: 'Poppins';
+    width: 268px;
+    height: 48px;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 0 0 0 16px;
+    
+}
+#mensagem-mensagem{
+    width: 268px;
+    height: 172px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding:16px  0 0 16px ;
+    resize: none;
+    
+}
+.login-cadastro{
+    margin:24px 24px; 
+    cursor: pointer;
+}
+.enviar-mensagem{
+    margin:32px auto 0;
+    
+}
+.mensagem-section .nome-mensagem{
+    margin-top: 0px;
+}
+.footer-mensagem{
+    
+    background-color: #36D6AD;
+    height: 104px;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-home{
+    
+    background-color: #36D6AD;
+    height: 104px;
+    bottom: 0;
+    width: 100%;
+}
+
+/*perfil*/ 
+.text-perfil{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    padding: 168px 56px 0 57px;
+}
+#imagem-perfil{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-image: url("/imagens/Imagenm\ Lua.png");
+}
+.sobre-perfil{
+    border: black;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    width: 312px;
+    margin:24px auto 16px;
+    height: 760px;
+    padding: 32px 16px;
+    
+}
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    color: #737380;
+}
+
+
+/*HOME pets*/ 
+.imagem-home{
+    position:fixed;
+    top: 0px;
+    left: 0;
+    
+}
+.text-home{
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    padding: 152px 67px 16px;
+    
+    
+}
+li p{
+    text-align: left;
+    margin: 0 0px 0 16px;
+}
+.nome{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    margin-top: 16px;
+}
+.descricao{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737380;
+    margin-top: 8px;
+}
+.local{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 30px;
+}
+.contato{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 7px;
+}
+li{
+    margin-top: 16px;
+    width: 360px;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    background: #F7F7F7;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo-tablet{
+    display: none;
+}
+
+.segundo-logo{
+    display: none;
+}
+.pula-linha{
+    display: none;
+}
+
+/*SIte para tablet*/
+
+
+@media screen and (min-width:768px){
+
+    /*geral */
+    
+   
+    .imagem-home{
+        width: 530px;
+        height: 430px;
+        
+       
+    }
+    .sobre-perfil{
+        margin: 26px auto 32px;
+        width: 524px;
+        
+        
+    } 
+
+    .mensagem-section{
+        width: 524px;
+        
+    }
+    #imagem-perfil{
+        margin: 0 auto;
+    }
+    .mensagem-section input{
+        width: 508px;
+        margin: 0;
+        
+    }
+    #mensagem-mensagem{
+        width: 508px;
+        height: 104px;
+    }
+    .mensagem-page{
+        
+        background-image: url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png");
+        background-repeat: no-repeat;
+        background-position: right 63% ,top left;
+        
+    }
+
+    .logo-tablet{
+        display:block;
+        position: absolute;
+        
+        margin: 64px 0 0 49px;
+        
+    }
+    .mensagem-section label{
+        font-size: 18px;
+    }
+
+    .home{
+        margin: 68px 0 0 242px;
+    }
+    .mensagem{
+        margin: 71px 330px 0;
+    }
+    .perfil{
+        top:52px;
+        right: 42px;
+        margin: 0;
+
+        
+    }
+    .perfil img{
+        width: 48px;
+        
+    }
+
+    .pula-linha{
+        display: block;
+    }
+   
+    /* PERfil*/
+    .text-perfil,.text-mensagem{
+        padding: 270px 122px 0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /*index*/
+
+    .descricao-inicial{
+        display: none;
+        
+    }
+    .menu{
+        background-image: url("/imagens/forma-1-tablet.png"),url("/imagens/Forma-tablet.png"), url("/imagens/Ilustração\ 1.png");
+    }
+    .descricao-tablet{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 210px;
+        display: block;
+    }
+    .boas{
+        margin-bottom:24px ;
+        font-size: 28px;
+    }
+    .botoes-iniciais{
+        width: 344px;
+        margin: 0 auto;
+    }
+    .login,.cadastro{
+        width: 344px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .logo{
+        margin: 273px 0 40px;
+        width: 251px;
+        height: 62px;
+    }
+
+    /*login cadastro*/
+    .logo-login{
+       display: none;
+    }
+    .segundo-logo{
+        display:inline-block;
+        margin-top: 250px;
+    }
+    .cadastro-page{
+        text-align: center;
+        background-image:url("/imagens/Patas-tablet.png"), url("/imagens/Forma-tablet.png"),url("/imagens/forma-1-tablet.png");
+        background-repeat: no-repeat;
+        background-position:right top, right 63% ,top left;
+        
+    }
+
+    .text-cadastro,.text-login{
+        padding:40px 122px  40px;
+        font-size: 18px;
+        margin: 0;
+    }
+    #cadastrar-botao{
+        width: 164px;
+        height: 40px;
+        
+    }
+    .login-cadastro input{
+        width: 344px;
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+    .footer-cadastro{
+        position: absolute;
+    }
+    
+
+    /*home tablet*/ 
+
+    .text-home{
+        padding: 288px 198px 0;
+        font-size: 18px;
+    }
+    .pets{
+        margin: 0 auto;
+        text-align: left;
+        
+    }
+    .pets li{
+        margin-left: 16px;
+
+    }
+    .ultimo{
+        margin-bottom: 40px;
+    }
+
+    /*mensagem paga*/ 
+    .mensagem-form{
+        width: 524px;
+        margin: 0 auto 92px;
+        height: 620px;
+    }
+    #mensagem-mensagem{
+        height: 172px ;
+    }
+    .enviar-mensagem{
+        margin-top: 32px;
+    }
+    .login-cadastro{
+        display: contents;
+    }
+}
+
+/*ajeita cadastro /index / login

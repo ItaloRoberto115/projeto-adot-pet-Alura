@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;500&family=Poppins&display=swap" rel="stylesheet">
+    
+    <title>adopet</title>
+</head>
+<body class="mensagem-page">
+    <div class="home-img">
+        
+        <img src="/imagens/logo-tablet.png" class="logo-tablet">
+    </div>
+    <header>
+        <nav class="botoes">
+            <button class="home"><a href="../pages/home.html"><img src="/imagens/Casa.svg"></a></button>
+            <button class="mensagem"><a href="../pages/mensagem.html"><img src="/imagens/Mensagens.svg"></a></button>
+            <button class="perfil"><a href="../pages/perfil.html"><img src="/imagens/Usuário.png" class="perfil-img"></a></button>
+        </nav>
+    </header>
+    <main>
+     
+
+        <div class="text-mensagem">
+            <p>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+        </div>
+
+        <form class="mensagem-form">
+            
+            <section class="mensagem-section">
+                <label for="nome-mensagem" class="nome-mensagem">Nome</label>
+                <input type="text" id="nome-mensagem" placeholder="Insira seu nome completo" required>
+
+                <label for="telefone">telefone</label>
+                <input type="tel" id="telefone" placeholder="Insira seu telefone e/ou whatsapp" required>
+
+                <label for="animal-nome">Nome do animal</label>
+                <input type="text" id="animal-nome" placeholder="por qual animal você se interessou?" required>
+
+                <label for="mensagem-mensagem">Mensagem</label>
+                <textarea id="mensagem-mensagem" placeholder="Escreva sua mensagem." required></textarea>
+
+
+                
+            </section>
+            <input type="submit" id="cadastrar-botao" class="enviar-mensagem"value="enviar">
+        </form>
+
+    </main>
+
+    <footer class="footer-mensagem">
+        <p class="footer-text">2022 - Desenvolvido por Alura.</p>
+    </footer>
+
+</body>
+</html>
